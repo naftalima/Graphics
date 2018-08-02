@@ -18,7 +18,7 @@ with open('arquivo.csv', 'rb') as inp, open('arquivoEdit.csv', 'wb') as out:
             writer.writerow(row)
         contador+=1
 
-with open('arquivo_edit.csv', 'rb') as csvfile, open('arquivoFinal.csv', 'wb') as final:
+with open('arquivoEdit.csv', 'rb') as csvfile, open('arquivoFinal.csv', 'wb') as final:
     reader = csv.reader(csvfile,  delimiter=',', quotechar='|')
     writere = csv.writer(final)
     
