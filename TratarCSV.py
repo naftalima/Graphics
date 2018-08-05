@@ -34,7 +34,7 @@ with open('arquivoEdit.csv', 'rb') as csvfile, open('arquivoFinal.csv', 'wb') as
 
                     # (Normalized) [%]
                     if "(Normalized)" in column:
-                        column = column.replace("(Normalized)","")
+                        column = column.replace("(Normalized)","Normalized")
 
                 # " [ms]" || Time*
                 if " [ms]" in column:
