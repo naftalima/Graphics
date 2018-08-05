@@ -55,8 +55,8 @@ with open('arquivoEdit.csv', 'rb') as csvfile, open('arquivoFinal.csv', 'wb') as
                 if "* [uW]" in column:
                     column = column.replace("* [uW]","")
 
-                column = column.replace(" ","") 
-                lista.append(column)
+            column = column.replace(" ","") 
+            lista.append(column)
 
         break # Percorre apenas a primeira linha
     
