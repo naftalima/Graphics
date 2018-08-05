@@ -1,6 +1,6 @@
 #print(getwd())
 
-data <- read.csv("arquivo.csv")
+data <- read.csv("arquivoFinal.csv")
 x <- data$Time12
 y <- data$BatteryPower
 
