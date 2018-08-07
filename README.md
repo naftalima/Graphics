@@ -15,3 +15,7 @@ GPU Load  – Usage for the 3D GPU core;
 
 Memory usage – Total system memory usage;
 
+
+EXAMPLE Ubuntu Terminal:
+$ Rscript R\ arquivos/CPUxLoad.R
+$ Rscript R\ arquivos/BatteryPower.r
