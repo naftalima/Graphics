@@ -67,5 +67,5 @@ with open('arquivoEdit.csv', 'rb') as csvfile, open('arquivoFinal.csv', 'wb') as
             writere.writerow(row)
         contador+=1
     
-#print(lista)
-
+print(lista)
+#conferir se os respectivos Times estao certos para fazer o chart com o script em R
