@@ -6,7 +6,7 @@ y <- data$BatteryPower
 
 png(file = "BatteryChart.png")
 
-plot(x,y, type= "b",col= "tomato", xlab= "Time", ylab = "Battery Power")
+plot(x,y, type= "b",col= "tomato", xlab= "Time  [ms]", ylab = "Battery Power [uW]")
 
 
 dev.off() 
