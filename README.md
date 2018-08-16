@@ -17,5 +17,7 @@ Memory usage – Total system memory usage;
 
 
 EXAMPLE Ubuntu Terminal:
+
 $ Rscript R\ arquivos/CPUxLoad.R
+
 $ Rscript R\ arquivos/BatteryPower.r
