@@ -13,7 +13,7 @@ with open('arquivo.csv', 'rb') as inp, open('arquivoEdit.csv', 'wb') as out:
 
     contador=0
     for row in csv.reader(inp):
-        if contador >= 3 and contador < 10000 : 
+        if contador >= 3 and contador < 9995 : 
             # do 4 ate o 10000
             writer.writerow(row)
         contador+=1
